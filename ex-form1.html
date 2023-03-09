@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: rgb(185, 194, 255);
+        }
+        td{
+            border: 1px solid #000;
+        }
+        h1 {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+<form class="formulario" method="post" action="#">
+    <table border="1">
+        <tr>
+            <th colspan="2"><h1>Trabalhando com Forms</h1></th>
+        </tr>
+        <tr>
+            <td><label>Nome:</label>
+            <td><input type="text" placeholder="Digite o nome"></td>
+        </tr>
+        <tr>
+            <td><label>Sexo:</label></td>
+            <td>
+                <input type="radio" name="sexo" value="Feminino">Feminino
+                <input type="radio" name="sexo" value="Masculino">Masculino 
+
+                <input type="radio" name="cargo">Professor
+                <input type="radio" name="cargo">Aluno 
+
+                
+            </td>
+        </tr>
+        <tr>
+            <td ><label>Escolaridade: </label></td>
+            <td>
+                <select name="escolaridade" >
+                    <option selected value="">Selecione a escolaridade</option>
+                    <option value="primeiro grau">1º Grau</option>
+                    <option value="segundo grau">2º Grau</option>
+                    <option value="terceiro grau">3º Grau</option>                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Limpar">
+            </td>
+            <td>
+                <input type="button" value="Enviar">
+            </td>
+
+        </tr>
+
+    </table>
+        
+</form>
+</body>
+</html>

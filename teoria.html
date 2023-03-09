@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página HTML</title>
+    <!-- Adicionando um icone na aba do navegador -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Estudando os elementos do HTML -->
+    <!-- Entendendo as tags html -->
+
+    <!-- Títulos de h1 a h6 -->
+    <h1> Este é um título</h1>
+    <h2> Este é um sub-titulo</h2>
+    <h3> Este é um título de nível 3</h3>
+
+    <!-- O <hr> insere uma linha na horizontal -->
+    <hr>
+    <!-- Com a tag <p> insiro um parágrafo -->
+    <p>Este é um parágrafo</p>
+    <p>Este é outro parágrafo</p>
+    <hr>
+    <!-- A tag <a> representa um link para abrir outra página
+        no atributo href coloco o endereço que desejo ir -->
+    <a href="https://www.sesisp.org.br/">Clique aqui para acessar o site do SESI</a>
+
+    <!-- A tag <br> quebra uma linha ela é uma tag
+    sem fechamento -->
+    <p>Este é um texto <br>
+         grande que desejo <br>
+         quebrar linha</p>
+
+    <!-- Tag img para adicionar uma imagem, coloco no 
+    atributo src o endereço da minha imagem-->
+    <img src="./img/praia.jpg" alt="Foto de uma praia">
+
+    <!--Para utilizar simbolos ou caracteres preciso
+    inserir o código dele ex 
+    &lt; <
+    &gt; >
+    Bliblioteca de simbolos em 
+    https://www.w3schools.com/charsets/ref_utf_symbols.asp   -->
+    <p>
+        Para a quebra de linha utilizamos a tag &lt;br&gt;
+    </p>
+
+    <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; </p>
+    
+    <!--Para inserir um emoji pego o hexadecimal do site
+    emojipedia.org e coloco depois de &#x -->
+    <p> Inserindo um emoji &#x1F60A &#x2764 </p>
+
+    <!-- Tags para Formatação e enfatização de texto -->
+    <b>- Texto em negrito </b> <br>
+    <strong>- texto importante</strong> <br>
+    <i>- texto em itálico</i> <br>
+    <em>- Texto enfatizado</em> <br>
+    <mark> - texto marcado</mark> <br>
+    <small>- Texto menor</small> <br>
+    <del> - texto excluído</del> <br>
+    <ins>- texto inserido</ins> <br>
+    <sub>- Texto subscrito</sub> <br>
+    <sup>- Texto sobrescrito</sup> <br>
+    <u> - texto Sublinhado</u> <br>
+        
+    <!-- Criando link utilizando atributo _blank para abrir
+    site em nova aba -->
+    <p> <a href="https://www.sesisp.org.br/" target="_blank">Abrir site SESI</a>  </p>
+
+    <hr>
+    <!--Navegando entre as telas de exercício-->
+    <p><a href="ex001.html">Exercício 001</a></p>
+    <p><a href="ex002.html">Exercício 002</a></p>
+    <p><a href="ex003.html">Exercício 003</a></p>
+    <p><a href="ex004.html">Exercício 004</a></p>
+
+    <!-- Criando link com uma imagem -->
+    <hr>
+    <a href="https://www.google.com" target="_blank">
+        <img src="./img/google.png" alt="">
+    </a>
+
+    <hr>
+    <!-- Link com email -->
+    <a href="mailto:douglas.camata@senaisp.edu.br">Enviar email para Douglas</a>
+
+    <hr>
+    <!--Inserindo um GIF -->
+    <img src="./img/filme.gif" alt="" srcset="">
+
+    <hr>
+    <table border="1" >
+        <tr> <!-- Table Row / Linha linha 1 -->
+            <td>  <!-- Table Data Coluna 1 -->
+                Linha 1 coluna 1
+            </td>
+            <td> <!--  Table Data Coluna 2 -->
+                Linha 1 coluna 2
+            </td>
+            <td> <!--  Table Data Coluna 2 -->
+                Linha 1 coluna 3
+            </td>   
+        </tr>
+        <tr> <!-- Table Row / Linha linha 2 -->
+            <td>
+                Linha 2 coluna 1
+            </td>
+            <td>
+                Linha 2 coluna 2
+            </td>
+            <td>
+                Linha 2 coluna 3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Linha 3 coluna 1
+            </td>
+            <td>
+                Linha 3 coluna 2
+            </td>
+            <td>
+                Linha 3 coluna 3
+            </td>
+        </tr>
+    </table>
+    
+
+    <hr>
+
+    <iframe width="360" height="115" src="https://www.youtube.com/embed/E6CdIawPTh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- Aprendendo CSS Inline -->
+    <h1 style="color:#0000ff;">Eu sou um título azul</h1>
+    <p style="color:#ff0000;">Eu sou um parágrafo com fundo vermelho</p>
+    <p style="font-size:60px;">Eu sou um texto grande</p>
+
+    <hr>
+
+    <!-- Lista não ordenada -->
+    <ul style="list-style-type: trad-chinese-formal;">
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Linguiça</li>
+        <li>Bebidas</li>
+        <li>Mandioca</li>
+        <li>Gelo</li>
+    </ul>
+
+    <hr>
+
+    <!-- Lista Ordenada padrão -->
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola</li>
+        <li>Almoçar</li>        
+    </ol>
+
+    <hr>
+
+    <!-- Lista Ordenada com romano minusculo -->
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola</li>
+        <li>Almoçar</li>        
+    </ol>
+
+    <!-- Lista Ordenada com letras minusculo -->
+    <ol type="a">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola</li>
+        <li>Almoçar</li>        
+    </ol>
+
+    <hr>
+
+    <!-- Lista predefinida -->
+    <dl>
+        <dt>Html</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem para estilização de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem programação para criação de interatividade de um site</dd>
+    </dl>
+
+    <hr>
+
+    <!-- Estudando formulários-->
+    <form>
+        <!-- Label Insere a descrição da informação que irá receber -->
+        <label>Nome:</label> 
+        <!-- Insere um campo digitável do tipo texto -->
+        <input type="text">
+        <br>
+        
+        <label>Sobrenome:</label>
+        <input type="text">
+        <br>
+        
+        <!-- Incluindo um input do tipo botão -->
+        <input type="button" value="Clique aqui">
+        <br>
+
+        <!-- Incluindo Checkbox (Opções) -->
+        <input type="checkbox">Eu tenho uma bicicleta<br>
+        <input type="checkbox">Eu tenho uma moto<br>
+        <input type="checkbox">Eu tenho um carro<br>
+
+        <!-- Selecionando uma cor -->
+        <input type="color" value="#0000ff">
+        <br>
+
+        <!-- Incluindo input do tipo data -->
+        <label>Data de nascimento</label>
+        <input type="date">
+        <br>
+
+        <!-- Incluindo input do tipo data e hora -->
+        <label>Data da prova</label>
+        <input type="datetime-local">
+        <br>
+
+        <!-- Incluindo input do tipo email -->
+        <label>Email</label>
+        <input type="email" placeholder="Digite seu email">
+        
+        <hr>
+
+        <!-- Incluindo input para selecionar arquivo -->
+        <label>Selecione uma foto</label>
+        <input type="file">
+        
+        <hr>
+
+        <!-- Criando um input de seleção -->
+        <select>
+            <option selected value="">Selecione a escolaridade</option>
+            <option value="primeiro grau">1º Grau</option>
+            <option value="segundo grau">2º Grau</option>
+            <option value="terceiro grau">3º Grau</option>                    
+        </select>
+
+        <hr>
+
+        <!-- Criando um input de radio button -->
+        <input type="radio" name="tamanho" >Pequeno <br>
+        <input type="radio" name="tamanho" >Médio <br>
+        <input type="radio" name="tamanho" >Grande 
+        
+        <hr>
+
+        <!-- Incluindo input de senha -->
+        <label>Senha</label>
+        <input type="password" placeholder="Digite a senha">
+        
+        <hr>
+        <!-- Criando um grupo de componentes do formulário -->
+        <fieldset>
+            <!-- Adicionando uma legenda do grupo -->
+            <legend>Legenda do agrupamento</legend>            
+            <input type="text" >
+        </fieldset>
+
+        <hr>
+        <!-- Botão de Enviar o formulário -->
+        <input type="submit" value="Enviar">
+
+        <!-- Botão de Limpar Reset -->
+        <input type="reset" value="Limpar">
+
+        <hr>
+
+    </form>
+
+    <hr>
+
+</body>
+</html>
