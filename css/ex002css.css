@@ -1,0 +1,57 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    transition: 1s;
+}
+
+h1:hover {
+    color: rgb(243, 0, 0);
+    text-align: center;
+    transition: 1s;
+    font-size: 45px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+hr {
+    border-color: greenyellow;
+}
+
+.roxo {
+    background-color:darkmagenta;
+    transition: 1s;
+}
+
+.roxo:hover{
+    background-color:lightsalmon;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.amarelo {
+    background-color:darkgoldenrod;
+}
+
+.vermelho {
+    background-color:darkred;
+}
+
+.azul {
+    background-color:darkblue;
+}
+
+.verde {
+    background-color:darkgreen;
+}
+
+#preto {
+    background-color: black;
+}

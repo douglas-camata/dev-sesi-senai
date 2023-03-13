@@ -1,0 +1,70 @@
+body{
+    /* Colocando cor de fundo do body (corpo da pg) */
+    background-color: aquamarine;
+}
+
+h1 {    
+    text-align: center; /*Centralizando texto tags h1*/
+}
+
+p {
+    color: blue; /* Alterando a cor do texto */
+}
+
+img {
+    width: 200px; /* Alterando a largura da imagem  */
+    height: 100px; /* Alterando a altura da imagem */
+}
+
+h2 {
+    font-size: 20px; /* Alterando o tamanho da fonte */
+    background-color: lightblue;
+}
+
+h3{
+    text-align: right; /*Alinhado a direita*/
+    font-size: 18px;
+    color: aqua;
+    background-color: black;
+}
+
+/* seletor de class, pode ter vários, começa com . */ 
+.p-vermelho {
+    color: red;
+}
+.p-amarelo {
+    color: yellow;
+}
+#p-verde{ /*Seletor de id ÚNICO começa com #  */
+    color: green;
+}
+
+.font-courier-new {
+    /* Alterando a fonte de um texto */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-google{ /* Fonte do google */
+    font-family: 'Tilt Prism', cursive;
+}
+
+@font-face {
+    font-family: "Fonte";
+    src: url(../font.ttf); 
+}
+
+.font-baixada{
+    font-family: Fonte;
+}
+
+.sombreado {
+    /* Text-shadow colocando sombreado no texto
+    eixo x, eixo y, esfumaçado, cor */
+    text-shadow: 2px 2px 1px #a1a1a1;
+}
+
+.sombreado2 {
+    color: white;
+    /*É possível mesclar e colocar vários sombreados no texto*/
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
