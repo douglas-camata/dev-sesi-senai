@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+}
+img {
+    width: 250px;
+}
+.principal {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+}
+input{
+    margin: 10px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px double darkred;
+}
+.botoes{
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}

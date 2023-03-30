@@ -26,14 +26,14 @@ hr {
 
 .roxo {
     background-color:darkmagenta;
-    transition: 1s;
+    transition: 500ms;
 }
 
-.roxo:hover{
-    background-color:lightsalmon;
-    width: 200px;
-    height: 200px;
+.roxo:hover {
+    background-color:rgb(255, 110, 255);
+    width: 120px;
     transition: 1s;
+    border-bottom: 10px solid darkmagenta;
 }
 
 .amarelo {
