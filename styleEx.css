@@ -1,0 +1,48 @@
+body {
+    font: 12pt Arial;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.ex {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+button {
+    font-size: 12pt;
+    padding: 10px 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+section#saida {
+    font-size: 20pt;
+}
+
+img {
+    width: 50%;
+}
+
+li {
+    text-align: left;
+}
